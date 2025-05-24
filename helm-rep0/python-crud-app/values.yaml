@@ -9,4 +9,4 @@ service:
 
 resources: {}
 
-replicaCount: 1
+replicaCount: 2
