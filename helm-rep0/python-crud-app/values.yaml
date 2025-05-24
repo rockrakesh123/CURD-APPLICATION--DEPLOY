@@ -1,0 +1,12 @@
+image:
+  repository: kundarakesh421/streamlit-app1
+  pullPolicy: IfNotPresent
+  tag: latest
+
+service:
+  type: NodePort
+  port: 8000
+
+resources: {}
+
+replicaCount: 1
