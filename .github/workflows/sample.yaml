@@ -5,6 +5,8 @@ on :
       - master
     path-ignore:
       - 'helm/**'
+      - 'helm-rep0/**'
+      - 'helm-rep0/python-crud-app/**'
       - 'k8s/**'
       - 'app/**'
       - 'README.md' 
