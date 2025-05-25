@@ -26,7 +26,8 @@ jobs:
         file: ./app/Dockerfile
         push: true
         tags: ${{secrets.DOCKERHUB_USERNAME}}/streamlit-app1:${{github.run_id}}    
-
+    - name: Print GitHub Run ID
+      run: echo "Run ID:${{ github.run_id }}"
 
 
   
