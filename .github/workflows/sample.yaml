@@ -40,7 +40,7 @@ jobs:
         vuln-type: 'os,library'
         severity: 'CRITICAL,HIGH'
 
-  update the tag image in helm chat:
+  update-newtag-in-helm-chart:
     runs-on: ubuntu-latest
     steps :
     - name: checkout Repository
