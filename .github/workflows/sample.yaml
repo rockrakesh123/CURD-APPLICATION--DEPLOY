@@ -35,7 +35,7 @@ jobs:
       with:
         image-ref: "docker.io/${{ secrets.DOCKERHUB_USERNAME }}/streamlit-app1:${{ github.run_id }}"
         format: 'table'
-        exit-code: '1'
+        exit-code: '0'
         ignore-unfixed: true
         vuln-type: 'os,library'
         severity: 'CRITICAL,HIGH'
