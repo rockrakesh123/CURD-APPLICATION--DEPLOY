@@ -1,7 +1,7 @@
 image:
   repository: kundarakesh421/streamlit-app1
   pullPolicy: IfNotPresent
-  tag: "15239334912"
+  tag: "15239335829"
 
 service:
   type: NodePort
