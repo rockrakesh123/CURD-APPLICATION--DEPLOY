@@ -2,7 +2,7 @@ name : Deploymnt of argo cd application
 on :
   push :
     branch:
-      -main
+      -master
 jobs:
   build:
     runs-on : ubuntu-latest
