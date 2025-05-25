@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-config
+data:
+  POSTGRES_HOST: "cluster1-pgbouncer.postgres-operator.svc"
+  POSTGRES_DB: "cluster1"
+  POSTGRES_USER: "cluster1"
+  POSTGRES_PORT: "5432"

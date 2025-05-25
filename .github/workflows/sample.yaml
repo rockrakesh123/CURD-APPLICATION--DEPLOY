@@ -1,0 +1,6 @@
+name : Deploymnt of argo cd application
+on :
+push :
+  main :
+name : checkout the repository 
+  

@@ -1,0 +1,5 @@
+DB_NAME=cluster1
+DB_USER=cluster1
+DB_PASSWORD=delW-g-e4M(g:yR5w2Y@IWV4
+DB_HOST=cluster1-pgbouncer.postgres-operator.svc
+DB_PORT=5432
