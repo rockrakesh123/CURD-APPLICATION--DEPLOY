@@ -33,7 +33,7 @@ jobs:
     - name: Scaning the docker image
       uses: aquasecurity/trivy-action@0.28.0
       with:
-        image-ref: 'docker.io/{{ secrets.DOCKERHUB_USERNAME }}/streamlit-app1:${{ github.run_id }}'
+        image-ref: "docker.io/{{ secrets.DOCKERHUB_USERNAME }}/streamlit-app1:${{ github.run_id }}"
         format: 'table'
         exit-code: '1'
         ignore-unfixed: true
