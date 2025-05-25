@@ -1,8 +1,13 @@
 name : Deploymnt of argo cd application
 on :
   push :
-    branch:
-      -master
+    branches :
+      - master
+    path-ignore:
+      - 'helm/**'
+      - 'k8s/**'
+      - 'app/**'
+      - 'README.md' 
 jobs:
   build:
     runs-on : ubuntu-latest
