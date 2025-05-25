@@ -22,8 +22,8 @@ jobs:
     - name: Build and Push action
       uses: docker/build-push-action@v6
       with:
-        context: .
-        file: ./Dockerfile
+        context: ./app
+        file: ./app/Dockerfile
         push: true
         tags: ${{secrets.DOCKERHUB_USERNAME}}/streamlit-app1:${{github.run_id}}    
 
