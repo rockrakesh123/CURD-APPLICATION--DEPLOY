@@ -3,15 +3,12 @@ on :
   push :
     branches :
       - master
-    path-ignore:
-      - 'helm/**'
-      - 'helm-rep0/**'
-      - 'helm-rep0/python-crud-app/**'
-      - 'k8s/**'
+    paths:
       - 'app/**'
-      - 'README.md' 
+      - '.github/workflows/**' 
 jobs:
   build:
+    if: "!contains(github.event.head_commit.message, 'Update tag in Helm chart')"
     runs-on : ubuntu-latest
     steps:
     - name: Checkout repository
