@@ -1,4 +1,4 @@
-name : Deploymnt of argo cd application
+name : Deploymnt of argo cd applica
 on :
   push :
     branches :
